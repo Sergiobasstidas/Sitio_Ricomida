@@ -1,0 +1,95 @@
+body  {
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.titulo { 
+    font-size: 1.2rem;
+}
+
+.botones_header {
+    display: flex;
+    align-items: left;
+}
+
+.carousel.slide {
+    height: 260px;
+}
+
+.carousel-indicators li { 
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+.tiempo {
+    font-weight: 700;
+}
+
+.titulo_receta {
+    max-width: 120px;
+    font-weight: 700;
+}
+
+.card-img-top {
+    width: auto;
+}
+
+.subscribe {
+    background-color: rgb(214, 16, 42);
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo_subscribe {
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.texto_subscribe {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.ricomida {
+    font-family: 'Lobster', cursive;
+}
+
+.footer_logo {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.boton_enviar {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+@media (max-width: 768px) {
+    .barra, .banner, .related, .subscribe {
+        padding-left: 38px;
+        padding-right: 38px;
+    }
+    .titulo_2 { 
+        font-size: 33px;
+        font-weight: 500;
+    }
+}
+
+
+@media (min-width: 769px) {
+    .barra, .banner, .related  {
+        padding-left: 9rem;
+        padding-right: 9rem;
+    }
+
+}
+
